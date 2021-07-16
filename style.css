@@ -28,4 +28,58 @@ body{
 .jumbotron #web-into{
     font-size: 1.3em;
 }
+.row{
+    background-color: rgb(241, 248, 139);
+    margin: 3px;
+    margin-top: -20px;
+    border-radius: 10px;
+}
+.row form{
+    padding: 25px;
+    align-items: center;
+
+}
+.row form .form-group{
+    margin-left: 100px;
+}
+.row form label{
+    font-size: 1.3em;
+}
+.row form input,
+.row form select
+{
+    width: 60%;
+}
+.row form button{
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 60px;
+}
+.row .content-box2{
+    background-image: url(Assets/akan1.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 60%;
+}
+.row .content-box2 .caption{
+    border: 2px solid black;
+    border-radius: 5px 20px 5px;;
+    width: 60%;
+    margin-top: 70px;
+    color: #fff;
+    margin-left: 70px;
+}
+.row .content-box2 #caption_name{
+    border: 3px dotted rgb(212, 54, 54);
+    border-radius: 15px/45px;
+    width: 60%;
+    background-color: mintcream;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+.row .content-box2 #caption_name #predict{
+    padding: 10px;
+
+}
+
 
