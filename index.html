@@ -5,13 +5,134 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Akan Naming</title>
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Akan project</h1>
-        
+    <div class="container">
+        <div class="jumbotron">
+            <img src="Assets/akan-logo.jpg" alt="logo">
+            <span id="webtitle">Akan naming system</span>
+            <p id="web-into">Welcome to Akan naming site, this system is derived from a community in ghana,
+                <br> if you want to learn more about the the Community 
+                
+                <button><a href="#about">click here</a></button>
+        </div>
+        <div class="row justify-content-between ">
+            <div class="col-lg-6 col-md-6 content-box">
+                <form>
+                    <div class="form-group">
+                      <label for="birth_day">Enter your birthday</label>
+                      <input type="date" class="form-control" id="date" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="person_gender">Gender</label>
+                        <select class="form-control" id="gender">
+                            <option>Female</option>
+                            <option>Male</option>
+                        </select>
+                    <Button type="submit" class= "btn-lg" onclick="print()">Submit</Button>
+                        </div>
+                  </form>
 
+            </div>
+            <div class="col-lg-5 col-md-5 content-box2">
+                <div class="caption">
+                    <h4>Check Your Akan Name Here</h4>
+                </div>
+                <div id="caption_name">
+                    <h3 id="predict"></h3>
+                    </div> 
+            </div>
+        </div>
+       
     </div>
+    <div class="container">
+        <div id="row-header">
+            <h2 class=" title text-center rounded " id="about">
+                <strong>About Akan People</strong>
+            </h2>
+        </div>
+            <div class="row justify-content-between row-about">
+                <div class="col-lg-5 col-md-5">
+                    <h3>Akan names and their meanings</h3>
+                    <p>Akan names come from a traditional naming system for people from countries such as Togo, Ivory Coast and Ghana. A child’s name is determined by factors surrounding his or her birth. For example, the day of their birth or the manner in which they were born may determine which name they get irrespective of their gender. These Akan names signify the day one is born. According to Akan tradition, each child is born with a name associated to their soul. The day the child is born is therefore determined by the soul. </p>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <table class="table table-striped table-danger">
+                        <thead>
+                          <tr>
+                            <th scope="col"></th>
+                            <th scope="col">Day of the week</th>
+                            <th scope="col">Male Name</th>
+                            <th scope="col">Female Name</th>
+
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>Sunday</td>
+                            <td>Kwasi</td>
+                            <td>Akosua</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">2</th>
+                            <td>Monday</td>
+                            <td>Kwadwo</td>
+                            <td>Adwoa</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">3</th>
+                            <td>Tuesday</td>
+                            <td>Kwebena</td>
+                            <td>Abenaa</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">4</th>
+                            <td>Wednesday</td>
+                            <td>Kwaku</td>
+                            <td>Akua</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">5</th>
+                            <td>Thursday</td>
+                            <td>yaw</td>
+                            <td>Yaa</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">6</th>
+                            <td>Friday</td>
+                            <td>Kofi</td>
+                            <td>Afua</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">7</th>
+                            <td>Saturday</td>
+                            <td>Kwema</td>
+                            <td>Ama</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <footer>
+            <div class="footer bg-secondary rounded">
+                <h3 class="text-center">contacts</h3>
+                <h4 class="text-center">Email: <em>Kikirui133@gmail.com</em></h>
+                <h4 class="text-center">Phone: <em>0714969204</em> </h4>
+                <h4 class="text-center">Copyright &copy; 2021 Tito</h4>
+            </div>
+            
+        </footer>
+    </div>
+   
+
+    
+        
+<script src="java.js"></script>
 </body>
 </html>

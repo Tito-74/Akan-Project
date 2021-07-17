@@ -1,3 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
 body{
     background-color: aquamarine;
 }
+.jumbotron{
+    background-color:rgb(177, 230, 134);
+    /* display: flex; */
+    margin-top: 5px;
+    height: 220px;
+
+
+}
+.jumbotron img{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    margin-top: -40px;
+   
+}
+.jumbotron #webtitle{
+    font-size: 2.5em;
+    vertical-align: middle;
+    padding-left: 15px;
+    margin-top: 2px;
+    font-family: 'Pacifico', cursive;
+}
+.jumbotron #web-into{
+    font-size: 1.3em;
+}
+.row{
+    background-color: rgb(241, 248, 139);
+    margin: 3px;
+    margin-top: -20px;
+    border-radius: 10px;
+}
+.row form{
+    padding: 25px;
+    align-items: center;
+
+}
+.row form .form-group{
+    margin-left: 100px;
+}
+.row form label{
+    font-size: 1.3em;
+}
+.row form input,
+.row form select
+{
+    width: 60%;
+}
+.row form button{
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 60px;
+}
+.row .content-box2{
+    background-image: url(Assets/akan1.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 60%;
+    border-radius: 10px;
+}
+.row .content-box2 .caption{
+    border: 2px solid black;
+    border-radius: 5px 20px 5px;;
+    width: 60%;
+    margin-top: 70px;
+    color: #fff;
+    margin-left: 70px;
+}
+.row .content-box2 #caption_name{
+    border: 3px dotted rgb(212, 54, 54);
+    border-radius: 15px/45px;
+    width: 60%;
+    background-color: mintcream;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+.row .content-box2 #caption_name #predict{
+    padding: 10px;
+
+}
+/* second row */
+.row-about{
+    margin-top: 0.2px;
+    background-color: rgb(247, 108, 66);;
+
+}
+.container #row-header .title{
+    text-align: center;
+    margin: 1px;
+    background-color: rgb(247, 108, 66);
+}
+.container #row-header .title{
+    margin-bottom: 0px;
+}
+
+
