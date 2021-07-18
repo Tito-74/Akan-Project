@@ -15,12 +15,11 @@
             <span id="webtitle">Akan naming system</span>
             <p id="web-into">Welcome to Akan naming site, this system is derived from a community in ghana,
                 <br> if you want to learn more about the the Community 
-                
                 <button><a href="#about">click here</a></button>
         </div>
         <div class="row justify-content-between ">
             <div class="col-lg-6 col-md-6 content-box">
-                <form>
+                <form id="form">
                     <div class="form-group">
                       <label for="birth_day">Enter your birthday</label>
                       <input type="date" class="form-control" id="date" required>
@@ -31,7 +30,7 @@
                             <option>Female</option>
                             <option>Male</option>
                         </select>
-                    <Button type="submit" class= "btn-lg" onclick="print()">Submit</Button>
+                    <Button class= "btn-lg" id="submit" onclick="printName()" >Submit</Button>
                         </div>
                   </form>
 

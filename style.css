@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 body{
-    background-color: aquamarine;
+    background-color: white;
 }
 .jumbotron{
     background-color:rgb(177, 230, 134);
@@ -95,6 +95,19 @@ body{
 }
 .container #row-header .title{
     margin-bottom: 0px;
+}
+/* media query */
+@media only screen and (min-width: 480px){
+    .jumbotron{
+        height:320px;
+    }
+    
+}
+@media only screen and (min-width: 768px){
+    .jumbotron{
+        height:200px;
+    }
+    
 }
 
 
