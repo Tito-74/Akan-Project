@@ -22,18 +22,15 @@ function akanPrint(){
             if(gender.toLowerCase() != "male")
             {
                 return [female[Math.floor(w_day)], day_name[Math.floor(w_day)]];
-                // document.getElementById("predict").innerHTML="Your Akan name is " + " "+ female[Math.floor(w_day)]  + " since you are female and born on " + day_name[Math.floor(w_day)];
-                // return false;
+                
             }
                 else
             {
                 return [male[Math.floor(w_day)], day_name[Math.floor(w_day)]];
-                // document.getElementById("predict").innerHTML="Your Akan name is " + " "+ male[Math.floor(w_day)]  + " since you are female and born on " + day_name[Math.floor(w_day)];
-                // return false;
+               
             };
     };
 
-    // document.getElementById("predict").innerHTML="hello"+ w_day;
     
 
 };
