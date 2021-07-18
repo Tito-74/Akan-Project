@@ -13,7 +13,7 @@ Used visual studio tool to develop the site and google chrome for running the pr
 * CSS
 * Boostrap
 ## Support and contact details
-For any challeng using the ite please don't hesitate to contact me through Email: kipkirui133@gmail.com or call me through 071496204
+For any challeng using the ite please don't hesitate to contact me through Email: kipkirui133@gmail.com or call me through 0714969204
 ### License
 MIT License
 Copyright © 2021 Langat Tito Kipkirui
