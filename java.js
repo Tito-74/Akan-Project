@@ -7,7 +7,7 @@ function akanPrint(){
     var day_name = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
 
     if( Birth == "" ) {
-        alert( "Please provide your Birthday!" );
+        alert( "Please provide your Birthday!" ); 
         return false;
      }
      else{
